@@ -3,6 +3,7 @@ import Header from "./Components/Layout/Header";
 import Meal from "./Components/Meals/Meal";
 import Cart from "./Components/Cart/Cart";
 import CartProvider from "./Store/CartProvider";
+
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
   const shownCartHandler = () => {
